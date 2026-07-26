@@ -1,0 +1,1378 @@
+{
+ "90_90_Hamstring": {
+  "name": "90/90 Hamstring",
+  "level": "beginner",
+  "mechanic": null,
+  "force": "push",
+  "category": "stretching",
+  "primaryMuscles": [
+   "hamstrings"
+  ],
+  "secondaryMuscles": [
+   "calves"
+  ],
+  "instructions": [
+   "Lie on your back, with one leg extended straight out.",
+   "With the other leg, bend the hip and knee to 90 degrees. You may brace your leg with your hands if necessary. This will be your starting position.",
+   "Extend your leg straight into the air, pausing briefly at the top. Return the leg to the starting position.",
+   "Repeat for 10-20 repetitions, and then switch to the other leg."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/90_90_Hamstring/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/90_90_Hamstring/1.jpg"
+  ]
+ },
+ "Air_Bike": {
+  "name": "Air Bike",
+  "level": "beginner",
+  "mechanic": "compound",
+  "force": "pull",
+  "category": "strength",
+  "primaryMuscles": [
+   "abdominals"
+  ],
+  "secondaryMuscles": [],
+  "instructions": [
+   "Lie flat on the floor with your lower back pressed to the ground. For this exercise, you will need to put your hands beside your head. Be careful however to not strain with the neck as you perform it. Now lift your shoulders into the crunch position.",
+   "Bring knees up to where they are perpendicular to the floor, with your lower legs parallel to the floor. This will be your starting position.",
+   "Now simultaneously, slowly go through a cycle pedal motion kicking forward with the right leg and bringing in the knee of the left leg. Bring your right elbow close to your left knee by crunching to the side, as you breathe out.",
+   "Go back to the initial position as you breathe in.",
+   "Crunch to the opposite side as you cycle your legs and bring closer your left elbow to your right knee and exhale.",
+   "Continue alternating in this manner until all of the recommended repetitions for each side have been completed."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Air_Bike/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Air_Bike/1.jpg"
+  ]
+ },
+ "All_Fours_Quad_Stretch": {
+  "name": "All Fours Quad Stretch",
+  "level": "intermediate",
+  "mechanic": null,
+  "force": "static",
+  "category": "stretching",
+  "primaryMuscles": [
+   "quadriceps"
+  ],
+  "secondaryMuscles": [
+   "quadriceps"
+  ],
+  "instructions": [
+   "Start off on your hands and knees, then lift your leg off the floor and hold the foot with your hand.",
+   "Use your hand to hold the foot or ankle, keeping the knee fully flexed, stretching the quadriceps and hip flexors.",
+   "Focus on extending your hips, thrusting them towards the floor. Hold for 10-20 seconds and then switch sides."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/All_Fours_Quad_Stretch/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/All_Fours_Quad_Stretch/1.jpg"
+  ]
+ },
+ "Body-Up": {
+  "name": "Body-Up",
+  "level": "intermediate",
+  "mechanic": "isolation",
+  "force": "push",
+  "category": "strength",
+  "primaryMuscles": [
+   "triceps"
+  ],
+  "secondaryMuscles": [
+   "abdominals",
+   "forearms"
+  ],
+  "instructions": [
+   "Assume a plank position on the ground. You should be supporting your bodyweight on your toes and forearms, keeping your torso straight. Your forearms should be shoulder-width apart. This will be your starting position.",
+   "Pressing your palms firmly into the ground, extend through the elbows to raise your body from the ground. Keep your torso rigid as you perform the movement.",
+   "Slowly lower your forearms back to the ground by allowing the elbows to flex.",
+   "Repeat."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Body-Up/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Body-Up/1.jpg"
+  ]
+ },
+ "Bodyweight_Squat": {
+  "name": "Bodyweight Squat",
+  "level": "beginner",
+  "mechanic": "compound",
+  "force": "push",
+  "category": "strength",
+  "primaryMuscles": [
+   "quadriceps"
+  ],
+  "secondaryMuscles": [
+   "glutes",
+   "hamstrings"
+  ],
+  "instructions": [
+   "Stand with your feet shoulder width apart. You can place your hands behind your head. This will be your starting position.",
+   "Begin the movement by flexing your knees and hips, sitting back with your hips.",
+   "Continue down to full depth if you are able,and quickly reverse the motion until you return to the starting position. As you squat, keep your head and chest up and push your knees out."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bodyweight_Squat/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bodyweight_Squat/1.jpg"
+  ]
+ },
+ "Bodyweight_Walking_Lunge": {
+  "name": "Bodyweight Walking Lunge",
+  "level": "beginner",
+  "mechanic": "compound",
+  "force": "push",
+  "category": "strength",
+  "primaryMuscles": [
+   "quadriceps"
+  ],
+  "secondaryMuscles": [
+   "calves",
+   "glutes",
+   "hamstrings"
+  ],
+  "instructions": [
+   "Begin standing with your feet shoulder width apart and your hands on your hips.",
+   "Step forward with one leg, flexing the knees to drop your hips. Descend until your rear knee nearly touches the ground. Your posture should remain upright, and your front knee should stay above the front foot.",
+   "Drive through the heel of your lead foot and extend both knees to raise yourself back up.",
+   "Step forward with your rear foot, repeating the lunge on the opposite leg."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bodyweight_Walking_Lunge/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bodyweight_Walking_Lunge/1.jpg"
+  ]
+ },
+ "Butt_Lift_Bridge": {
+  "name": "Butt Lift (Bridge)",
+  "level": "beginner",
+  "mechanic": "isolation",
+  "force": "push",
+  "category": "strength",
+  "primaryMuscles": [
+   "glutes"
+  ],
+  "secondaryMuscles": [
+   "hamstrings"
+  ],
+  "instructions": [
+   "Lie flat on the floor on your back with the hands by your side and your knees bent. Your feet should be placed around shoulder width. This will be your starting position.",
+   "Pushing mainly with your heels, lift your hips off the floor while keeping your back straight. Breathe out as you perform this part of the motion and hold at the top for a second.",
+   "Slowly go back to the starting position as you breathe in."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Butt_Lift_Bridge/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Butt_Lift_Bridge/1.jpg"
+  ]
+ },
+ "Calf_Stretch_Hands_Against_Wall": {
+  "name": "Calf Stretch Hands Against Wall",
+  "level": "beginner",
+  "mechanic": "isolation",
+  "force": "static",
+  "category": "stretching",
+  "primaryMuscles": [
+   "calves"
+  ],
+  "secondaryMuscles": [],
+  "instructions": [
+   "Stand facing a wall from several feet away. Stagger your stance, placing one foot forward.",
+   "Lean forward and rest your hands on the wall, keeping your heel, hip and head in a straight line.",
+   "Attempt to keep your heel on the ground. Hold for 10-20 seconds and then switch sides."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Calf_Stretch_Hands_Against_Wall/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Calf_Stretch_Hands_Against_Wall/1.jpg"
+  ]
+ },
+ "Chin-Up": {
+  "name": "Chin-Up",
+  "level": "beginner",
+  "mechanic": "compound",
+  "force": "pull",
+  "category": "strength",
+  "primaryMuscles": [
+   "lats"
+  ],
+  "secondaryMuscles": [
+   "biceps",
+   "forearms",
+   "middle back"
+  ],
+  "instructions": [
+   "Grab the pull-up bar with the palms facing your torso and a grip closer than the shoulder width.",
+   "As you have both arms extended in front of you holding the bar at the chosen grip width, keep your torso as straight as possible while creating a curvature on your lower back and sticking your chest out. This is your starting position. Tip: Keeping the torso as straight as possible maximizes biceps stimulation while minimizing back involvement.",
+   "As you breathe out, pull your torso up until your head is around the level of the pull-up bar. Concentrate on using the biceps muscles in order to perform the movement. Keep the elbows close to your body. Tip: The upper torso should remain stationary as it moves through space and only the arms should move. The forearms should do no other work other than hold the bar.",
+   "After a second of squeezing the biceps in the contracted position, slowly lower your torso back to the starting position; when your arms are fully extended. Breathe in as you perform this portion of the movement.",
+   "Repeat this motion for the prescribed amount of repetitions."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chin-Up/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chin-Up/1.jpg"
+  ]
+ },
+ "Crossover_Reverse_Lunge": {
+  "name": "Crossover Reverse Lunge",
+  "level": "intermediate",
+  "mechanic": null,
+  "force": "pull",
+  "category": "stretching",
+  "primaryMuscles": [
+   "lower back"
+  ],
+  "secondaryMuscles": [
+   "abdominals",
+   "abductors",
+   "glutes",
+   "hamstrings",
+   "quadriceps"
+  ],
+  "instructions": [
+   "Stand with your feet shoulder width apart. This will be your starting position.",
+   "Perform a rear lunge by stepping back with one foot and flexing the hips and front knee. As you do so, rotate your torso across the front leg.",
+   "After a brief pause, return to the starting position and repeat on the other side, continuing in an alternating fashion."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Crossover_Reverse_Lunge/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Crossover_Reverse_Lunge/1.jpg"
+  ]
+ },
+ "Dead_Bug": {
+  "name": "Dead Bug",
+  "level": "beginner",
+  "mechanic": "compound",
+  "force": "pull",
+  "category": "strength",
+  "primaryMuscles": [
+   "abdominals"
+  ],
+  "secondaryMuscles": [],
+  "instructions": [
+   "Begin lying on your back with your hands extended above you toward the ceiling.",
+   "Bring your feet, knees, and hips up to 90 degrees.",
+   "Exhale hard to bring your ribcage down and flatten your back onto the floor, rotating your pelvis up and squeezing your glutes. Hold this position throughout the movement. This will be your starting position.",
+   "Initiate the exercise by extending one leg, straightening the knee and hip to bring the leg just above the ground.",
+   "Maintain the position of your lumbar and pelvis as you perform the movement, as your back is going to want to arch.",
+   "Stay tight and return the working leg to the starting position.",
+   "Repeat on the opposite side, alternating until the set is complete."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dead_Bug/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dead_Bug/1.jpg"
+  ]
+ },
+ "Dips_-_Triceps_Version": {
+  "name": "Dips - Triceps Version",
+  "level": "beginner",
+  "mechanic": "compound",
+  "force": "push",
+  "category": "strength",
+  "primaryMuscles": [
+   "triceps"
+  ],
+  "secondaryMuscles": [
+   "chest",
+   "shoulders"
+  ],
+  "instructions": [
+   "To get into the starting position, hold your body at arm's length with your arms nearly locked above the bars.",
+   "Now, inhale and slowly lower yourself downward. Your torso should remain upright and your elbows should stay close to your body. This helps to better focus on tricep involvement. Lower yourself until there is a 90 degree angle formed between the upper arm and forearm.",
+   "Then, exhale and push your torso back up using your triceps to bring your body back to the starting position.",
+   "Repeat the movement for the prescribed amount of repetitions."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dips_-_Triceps_Version/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dips_-_Triceps_Version/1.jpg"
+  ]
+ },
+ "Donkey_Calf_Raises": {
+  "name": "Donkey Calf Raises",
+  "level": "intermediate",
+  "mechanic": "isolation",
+  "force": "push",
+  "category": "strength",
+  "primaryMuscles": [
+   "calves"
+  ],
+  "secondaryMuscles": [],
+  "instructions": [
+   "For this exercise you will need access to a donkey calf raise machine. Start by positioning your lower back and hips under the padded lever provided. The tailbone area should be the one making contact with the pad.",
+   "Place both of your arms on the side handles and place the balls of your feet on the calf block with the heels extending off. Align the toes forward, inward or outward, depending on the area you wish to target, and straighten the knees without locking them. This will be your starting position.",
+   "Raise your heels as you breathe out by extending your ankles as high as possible and flexing your calf. Ensure that the knee is kept stationary at all times. There should be no bending at any time. Hold the contracted position by a second before you start to go back down.",
+   "Go back slowly to the starting position as you breathe in by lowering your heels as you bend the ankles until calves are stretched.",
+   "Repeat for the recommended amount of repetitions."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Donkey_Calf_Raises/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Donkey_Calf_Raises/1.jpg"
+  ]
+ },
+ "Fast_Skipping": {
+  "name": "Fast Skipping",
+  "level": "beginner",
+  "mechanic": "compound",
+  "force": "push",
+  "category": "plyometrics",
+  "primaryMuscles": [
+   "quadriceps"
+  ],
+  "secondaryMuscles": [
+   "abductors",
+   "adductors",
+   "calves",
+   "glutes",
+   "hamstrings"
+  ],
+  "instructions": [
+   "Start in a relaxed position with one leg slightly forward. This will be your starting position.",
+   "Skip by executing a step-hop pattern of right-right-step to left-left-step, and so on, alternating back and forth.",
+   "Perform fast skips by maintaining close contact with the ground and reduce air time, moving as quickly as possible."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Fast_Skipping/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Fast_Skipping/1.jpg"
+  ]
+ },
+ "Flutter_Kicks": {
+  "name": "Flutter Kicks",
+  "level": "beginner",
+  "mechanic": "compound",
+  "force": "pull",
+  "category": "strength",
+  "primaryMuscles": [
+   "glutes"
+  ],
+  "secondaryMuscles": [
+   "hamstrings"
+  ],
+  "instructions": [
+   "On a flat bench lie facedown with the hips on the edge of the bench, the legs straight with toes high off the floor and with the arms on top of the bench holding on to the front edge.",
+   "Squeeze your glutes and hamstrings and straighten the legs until they are level with the hips. This will be your starting position.",
+   "Start the movement by lifting the left leg higher than the right leg.",
+   "Then lower the left leg as you lift the right leg.",
+   "Continue alternating in this manner (as though you are doing a flutter kick in water) until you have done the recommended amount of repetitions for each leg. Make sure that you keep a controlled movement at all times. Tip: You will breathe normally as you perform this movement."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Flutter_Kicks/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Flutter_Kicks/1.jpg"
+  ]
+ },
+ "Freehand_Jump_Squat": {
+  "name": "Freehand Jump Squat",
+  "level": "intermediate",
+  "mechanic": "compound",
+  "force": "push",
+  "category": "strength",
+  "primaryMuscles": [
+   "quadriceps"
+  ],
+  "secondaryMuscles": [
+   "calves",
+   "glutes",
+   "hamstrings"
+  ],
+  "instructions": [
+   "Cross your arms over your chest.",
+   "With your head up and your back straight, position your feet at shoulder width.",
+   "Keeping your back straight and chest up, squat down as you inhale until your upper thighs are parallel, or lower, to the floor.",
+   "Now pressing mainly with the ball of your feet, jump straight up in the air as high as possible, using the thighs like springs. Exhale during this portion of the movement.",
+   "When you touch the floor again, immediately squat down and jump again.",
+   "Repeat for the recommended amount of repetitions."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Freehand_Jump_Squat/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Freehand_Jump_Squat/1.jpg"
+  ]
+ },
+ "Front_Leg_Raises": {
+  "name": "Front Leg Raises",
+  "level": "beginner",
+  "mechanic": null,
+  "force": "pull",
+  "category": "stretching",
+  "primaryMuscles": [
+   "hamstrings"
+  ],
+  "secondaryMuscles": [],
+  "instructions": [
+   "Stand next to a chair or other support, holding on with one hand.",
+   "Swing your leg forward, keeping the leg straight. Continue with a downward swing, bringing the leg as far back as your flexibility allows. Repeat 5-10 times, and then switch legs."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Front_Leg_Raises/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Front_Leg_Raises/1.jpg"
+  ]
+ },
+ "Gorilla_Chin_Crunch": {
+  "name": "Gorilla Chin/Crunch",
+  "level": "intermediate",
+  "mechanic": "compound",
+  "force": "pull",
+  "category": "strength",
+  "primaryMuscles": [
+   "abdominals"
+  ],
+  "secondaryMuscles": [
+   "biceps",
+   "lats"
+  ],
+  "instructions": [
+   "Hang from a chin-up bar using an underhand grip (palms facing you) that is slightly wider than shoulder width.",
+   "Now bend your knees at a 90 degree angle so that the calves are parallel to the floor while the thighs remain perpendicular to it. This will be your starting position.",
+   "As you exhale, pull yourself up while crunching your knees up at the same time until your knees are at chest level. You will stop going up as soon as your nose is at the same level as the bar. Tip: When you get to this point you should also be finishing the crunch at the same time.",
+   "Slowly start to inhale as you return to the starting position.",
+   "Repeat for the recommended amount of repetitions."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Gorilla_Chin_Crunch/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Gorilla_Chin_Crunch/1.jpg"
+  ]
+ },
+ "Groiners": {
+  "name": "Groiners",
+  "level": "intermediate",
+  "mechanic": "compound",
+  "force": "pull",
+  "category": "stretching",
+  "primaryMuscles": [
+   "adductors"
+  ],
+  "secondaryMuscles": [],
+  "instructions": [
+   "Begin in a pushup position on the floor. This will be your starting position.",
+   "Using both legs, jump forward landing with your feet next to your hands. Keep your head up as you do so.",
+   "Return to the starting position and immediately repeat the movement, continuing for 10-20 repetitions."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Groiners/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Groiners/1.jpg"
+  ]
+ },
+ "Handstand_Push-Ups": {
+  "name": "Handstand Push-Ups",
+  "level": "expert",
+  "mechanic": "compound",
+  "force": "push",
+  "category": "strength",
+  "primaryMuscles": [
+   "shoulders"
+  ],
+  "secondaryMuscles": [
+   "triceps"
+  ],
+  "instructions": [
+   "With your back to the wall bend at the waist and place both hands on the floor at shoulder width.",
+   "Kick yourself up against the wall with your arms straight. Your body should be upside down with the arms and legs fully extended. Keep your whole body as straight as possible. Tip: If doing this for the first time, have a spotter help you. Also, make sure that you keep facing the wall with your head, rather than looking down.",
+   "Slowly lower yourself to the ground as you inhale until your head almost touches the floor. Tip: It is of utmost importance that you come down slow in order to avoid head injury.",
+   "Push yourself back up slowly as you exhale until your elbows are nearly locked.",
+   "Repeat for the recommended amount of repetitions."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Handstand_Push-Ups/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Handstand_Push-Ups/1.jpg"
+  ]
+ },
+ "Hanging_Leg_Raise": {
+  "name": "Hanging Leg Raise",
+  "level": "expert",
+  "mechanic": "isolation",
+  "force": "pull",
+  "category": "strength",
+  "primaryMuscles": [
+   "abdominals"
+  ],
+  "secondaryMuscles": [],
+  "instructions": [
+   "Hang from a chin-up bar with both arms extended at arms length in top of you using either a wide grip or a medium grip. The legs should be straight down with the pelvis rolled slightly backwards. This will be your starting position.",
+   "Raise your legs until the torso makes a 90-degree angle with the legs. Exhale as you perform this movement and hold the contraction for a second or so.",
+   "Go back slowly to the starting position as you breathe in.",
+   "Repeat for the recommended amount of repetitions."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hanging_Leg_Raise/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hanging_Leg_Raise/1.jpg"
+  ]
+ },
+ "Hyperextensions_With_No_Hyperextension_Bench": {
+  "name": "Hyperextensions With No Hyperextension Bench",
+  "level": "intermediate",
+  "mechanic": "compound",
+  "force": "pull",
+  "category": "strength",
+  "primaryMuscles": [
+   "lower back"
+  ],
+  "secondaryMuscles": [
+   "glutes",
+   "hamstrings"
+  ],
+  "instructions": [
+   "With someone holding down your legs, slide yourself down to the edge a flat bench until your hips hang off the end of the bench. Tip: Your entire upper body should be hanging down towards the floor. Also, you will be in the same position as if you were on a hyperextension bench but the range of motion will be shorter due to the height of the flat bench vs. that of the hyperextension bench.",
+   "With your body straight, cross your arms in front of you (my preference) or behind your head. This will be your starting position. Tip: You can also hold a weight plate for extra resistance in front of you under your crossed arms.",
+   "Start bending forward slowly at the waist as far as you can while keeping your back flat. Inhale as you perform this movement. Keep moving forward until you almost touch the floor or you feel a nice stretch on the hamstrings (whichever comes first). Tip: Never round the back as you perform this exercise.",
+   "Slowly raise your torso back to the initial position as you exhale. Tip: Avoid the temptation to arch your back past a straight line. Also, do not swing the torso at any time in order to protect the back from injury.",
+   "Repeat for the recommended amount of repetitions."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hyperextensions_With_No_Hyperextension_Bench/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hyperextensions_With_No_Hyperextension_Bench/1.jpg"
+  ]
+ },
+ "Inchworm": {
+  "name": "Inchworm",
+  "level": "beginner",
+  "mechanic": "compound",
+  "force": null,
+  "category": "stretching",
+  "primaryMuscles": [
+   "hamstrings"
+  ],
+  "secondaryMuscles": [],
+  "instructions": [
+   "Stand with your feet close together. Keeping your legs straight, stretch down and put your hands on the floor directly in front of you. This will be your starting position.",
+   "Begin by walking your hands forward slowly, alternating your left and your right. As you do so, bend only at the hip, keeping your legs straight.",
+   "Keep going until your body is parallel to the ground in a pushup position.",
+   "Now, keep your hands in place and slowly take short steps with your feet, moving only a few inches at a time.",
+   "Continue walking until your feet are by hour hands, keeping your legs straight as you do so."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Inchworm/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Inchworm/1.jpg"
+  ]
+ },
+ "Incline_Push-Up": {
+  "name": "Incline Push-Up",
+  "level": "beginner",
+  "mechanic": "compound",
+  "force": "push",
+  "category": "strength",
+  "primaryMuscles": [
+   "chest"
+  ],
+  "secondaryMuscles": [
+   "shoulders",
+   "triceps"
+  ],
+  "instructions": [
+   "Stand facing bench or sturdy elevated platform. Place hands on edge of bench or platform, slightly wider than shoulder width.",
+   "Position forefoot back from bench or platform with arms and body straight. Arms should be perpendicular to body. Keeping body straight, lower chest to edge of box or platform by bending arms.",
+   "Push body up until arms are extended. Repeat."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Incline_Push-Up/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Incline_Push-Up/1.jpg"
+  ]
+ },
+ "Inverted_Row": {
+  "name": "Inverted Row",
+  "level": "beginner",
+  "mechanic": "compound",
+  "force": "pull",
+  "category": "strength",
+  "primaryMuscles": [
+   "middle back"
+  ],
+  "secondaryMuscles": [
+   "lats"
+  ],
+  "instructions": [
+   "Position a bar in a rack to about waist height. You can also use a smith machine.",
+   "Take a wider than shoulder width grip on the bar and position yourself hanging underneath the bar. Your body should be straight with your heels on the ground with your arms fully extended. This will be your starting position.",
+   "Begin by flexing the elbow, pulling your chest towards the bar. Retract your shoulder blades as you perform the movement.",
+   "Pause at the top of the motion, and return yourself to the start position.",
+   "Repeat for the desired number of repetitions."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Inverted_Row/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Inverted_Row/1.jpg"
+  ]
+ },
+ "Isometric_Chest_Squeezes": {
+  "name": "Isometric Chest Squeezes",
+  "level": "beginner",
+  "mechanic": "compound",
+  "force": "static",
+  "category": "plyometrics",
+  "primaryMuscles": [
+   "chest"
+  ],
+  "secondaryMuscles": [
+   "shoulders",
+   "triceps"
+  ],
+  "instructions": [
+   "While either seating or standing, bend your arms at a 90-degree angle and place the palms of your hands together in front of your chest. Tip: Your hands should be open with the palms together and fingers facing forward (perpendicular to your torso).",
+   "Push both hands against each other as you contract your chest. Start with slow tension and increase slowly. Keep breathing normally as you execute this contraction.",
+   "Hold for the recommended number of seconds.",
+   "Now release the tension slowly.",
+   "Rest for the recommended amount of time and repeat."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Isometric_Chest_Squeezes/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Isometric_Chest_Squeezes/1.jpg"
+  ]
+ },
+ "Knee_Circles": {
+  "name": "Knee Circles",
+  "level": "beginner",
+  "mechanic": "compound",
+  "force": "pull",
+  "category": "stretching",
+  "primaryMuscles": [
+   "calves"
+  ],
+  "secondaryMuscles": [
+   "hamstrings",
+   "quadriceps"
+  ],
+  "instructions": [
+   "Stand with your legs together and hands by your waist.",
+   "Now move your knees in a circular motion as you breathe normally.",
+   "Repeat for the recommended amount of repetitions."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Knee_Circles/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Knee_Circles/1.jpg"
+  ]
+ },
+ "Lower_Back_Curl": {
+  "name": "Lower Back Curl",
+  "level": "beginner",
+  "mechanic": null,
+  "force": "static",
+  "category": "stretching",
+  "primaryMuscles": [
+   "abdominals"
+  ],
+  "secondaryMuscles": [],
+  "instructions": [
+   "Lie on your stomach with your arms out to your sides. This will be your starting position.",
+   "Using your lower back muscles, extend your spine lifting your chest off of the ground. Do not use your arms to push yourself up. Keep your head up during the movement. Repeat for 10-20 repetitions."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Lower_Back_Curl/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Lower_Back_Curl/1.jpg"
+  ]
+ },
+ "Lying_Crossover": {
+  "name": "Lying Crossover",
+  "level": "expert",
+  "mechanic": null,
+  "force": "static",
+  "category": "stretching",
+  "primaryMuscles": [
+   "abductors"
+  ],
+  "secondaryMuscles": [],
+  "instructions": [
+   "Lie on your back with your legs extended.",
+   "Cross one leg over your body with the knee bent, attempting to touch the knee to the ground. Your partner should kneel beside you, holding your shoulder down with one hand and controlling the crossed leg with the other. this will be your starting position.",
+   "Attempt to raise the bent knee off of the ground as your partner prevents any actual movement.",
+   "After 10-20 seconds, relax the leg as your partner gently presses the knee towards the floor. Repeat with the other side."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Lying_Crossover/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Lying_Crossover/1.jpg"
+  ]
+ },
+ "Lying_Glute": {
+  "name": "Lying Glute",
+  "level": "expert",
+  "mechanic": null,
+  "force": "static",
+  "category": "stretching",
+  "primaryMuscles": [
+   "glutes"
+  ],
+  "secondaryMuscles": [
+   "abductors"
+  ],
+  "instructions": [
+   "Lie on your back with your partner kneeling beside you.",
+   "Flex the hip of one leg, raising it off of the floor. Rotate the leg so the foot is over the opposite hip, the lower leg perpendicular to your body. Your partner should hold the knee and ankle in place. This will be your starting position.",
+   "Attempt to push your leg towards your partner, who should be preventing any actual movement of the leg.",
+   "After 10-20 seconds, completely relax as your partner gently pushes the ankle and knee towards your chest. Be sure to inform your helper when the stretch is adequate to prevent injury or overstretching."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Lying_Glute/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Lying_Glute/1.jpg"
+  ]
+ },
+ "Mountain_Climbers": {
+  "name": "Mountain Climbers",
+  "level": "beginner",
+  "mechanic": "compound",
+  "force": "pull",
+  "category": "plyometrics",
+  "primaryMuscles": [
+   "quadriceps"
+  ],
+  "secondaryMuscles": [
+   "chest",
+   "hamstrings",
+   "shoulders"
+  ],
+  "instructions": [
+   "Begin in a pushup position, with your weight supported by your hands and toes. Flexing the knee and hip, bring one leg until the knee is approximately under the hip. This will be your starting position.",
+   "Explosively reverse the positions of your legs, extending the bent leg until the leg is straight and supported by the toe, and bringing the other foot up with the hip and knee flexed. Repeat in an alternating fashion for 20-30 seconds."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Mountain_Climbers/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Mountain_Climbers/1.jpg"
+  ]
+ },
+ "Natural_Glute_Ham_Raise": {
+  "name": "Natural Glute Ham Raise",
+  "level": "intermediate",
+  "mechanic": "compound",
+  "force": "pull",
+  "category": "strength",
+  "primaryMuscles": [
+   "hamstrings"
+  ],
+  "secondaryMuscles": [
+   "calves",
+   "glutes",
+   "lower back"
+  ],
+  "instructions": [
+   "Using the leg pad of a lat pulldown machine or a preacher bench, position yourself so that your ankles are under the pads, knees on the seat, and you are facing away from the machine. You should be upright and maintaining good posture.",
+   "This will be your starting position. Lower yourself under control until your knees are almost completely straight.",
+   "Remaining in control, raise yourself back up to the starting position.",
+   "If you are unable to complete a rep, use a band, a partner, or push off of a box to aid in completing a repetition."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Natural_Glute_Ham_Raise/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Natural_Glute_Ham_Raise/1.jpg"
+  ]
+ },
+ "One_Arm_Against_Wall": {
+  "name": "One Arm Against Wall",
+  "level": "beginner",
+  "mechanic": "isolation",
+  "force": "static",
+  "category": "stretching",
+  "primaryMuscles": [
+   "lats"
+  ],
+  "secondaryMuscles": [],
+  "instructions": [
+   "From a standing position, place a bent arm against a wall or doorway.",
+   "Slowly lean toward your arm until you feel a stretch in your lats."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/One_Arm_Against_Wall/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/One_Arm_Against_Wall/1.jpg"
+  ]
+ },
+ "One_Handed_Hang": {
+  "name": "One Handed Hang",
+  "level": "beginner",
+  "mechanic": null,
+  "force": "static",
+  "category": "stretching",
+  "primaryMuscles": [
+   "lats"
+  ],
+  "secondaryMuscles": [
+   "biceps"
+  ],
+  "instructions": [
+   "Grab onto a chinup bar with one hand, using a pronated grip. Keep your feet on the floor or a step. Allow the majority of your weight to hang from that hand, while keeping your feet on the ground. Hold for 10-20 seconds and switch sides."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/One_Handed_Hang/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/One_Handed_Hang/1.jpg"
+  ]
+ },
+ "Overhead_Triceps": {
+  "name": "Overhead Triceps",
+  "level": "expert",
+  "mechanic": null,
+  "force": "static",
+  "category": "stretching",
+  "primaryMuscles": [
+   "triceps"
+  ],
+  "secondaryMuscles": [
+   "lats"
+  ],
+  "instructions": [
+   "Sit upright on the floor with your partner behind you. Raise one arm straight up, and flex the elbow, attempting to touch your hand to your back. Your parner should hold your elbow and wrist. This will be your starting position.",
+   "Attempt to extend the arm straight into the air as your partner prevents you from doing actually doing so.",
+   "After 10-20 seconds, relax the arm and allow your partner to further stretch the tricep by applying gentle pressure to the wrist. Hold for 10-20 seconds, and then switch sides."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Overhead_Triceps/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Overhead_Triceps/1.jpg"
+  ]
+ },
+ "Plank": {
+  "name": "Plank",
+  "level": "beginner",
+  "mechanic": "isolation",
+  "force": "static",
+  "category": "strength",
+  "primaryMuscles": [
+   "abdominals"
+  ],
+  "secondaryMuscles": [],
+  "instructions": [
+   "Get into a prone position on the floor, supporting your weight on your toes and your forearms. Your arms are bent and directly below the shoulder.",
+   "Keep your body straight at all times, and hold this position as long as possible. To increase difficulty, an arm or leg can be raised."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Plank/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Plank/1.jpg"
+  ]
+ },
+ "Plyo_Push-up": {
+  "name": "Plyo Push-up",
+  "level": "beginner",
+  "mechanic": "compound",
+  "force": "push",
+  "category": "plyometrics",
+  "primaryMuscles": [
+   "chest"
+  ],
+  "secondaryMuscles": [
+   "shoulders",
+   "triceps"
+  ],
+  "instructions": [
+   "Move into a prone position on the floor, supporting your weight on your hands and toes.",
+   "Your arms should be fully extended with the hands around shoulder width. Keep your body straight throughout the movement. This will be your starting position.",
+   "Descend by flexing at the elbow, lowering your chest towards the ground.",
+   "At the bottom, reverse the motion by pushing yourself up through elbow extension as quickly as possible. Attempt to push your upper body up until your hands leave the ground.",
+   "Return to the starting position and repeat the exercise.",
+   "For added difficulty, add claps into the movement while you are air borne."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Plyo_Push-up/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Plyo_Push-up/1.jpg"
+  ]
+ },
+ "Pullups": {
+  "name": "Pullups",
+  "level": "beginner",
+  "mechanic": "compound",
+  "force": "pull",
+  "category": "strength",
+  "primaryMuscles": [
+   "lats"
+  ],
+  "secondaryMuscles": [
+   "biceps",
+   "middle back"
+  ],
+  "instructions": [
+   "Grab the pull-up bar with the palms facing forward using the prescribed grip. Note on grips: For a wide grip, your hands need to be spaced out at a distance wider than your shoulder width. For a medium grip, your hands need to be spaced out at a distance equal to your shoulder width and for a close grip at a distance smaller than your shoulder width.",
+   "As you have both arms extended in front of you holding the bar at the chosen grip width, bring your torso back around 30 degrees or so while creating a curvature on your lower back and sticking your chest out. This is your starting position.",
+   "Pull your torso up until the bar touches your upper chest by drawing the shoulders and the upper arms down and back. Exhale as you perform this portion of the movement. Tip: Concentrate on squeezing the back muscles once you reach the full contracted position. The upper torso should remain stationary as it moves through space and only the arms should move. The forearms should do no other work other than hold the bar.",
+   "After a second on the contracted position, start to inhale and slowly lower your torso back to the starting position when your arms are fully extended and the lats are fully stretched.",
+   "Repeat this motion for the prescribed amount of repetitions."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Pullups/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Pullups/1.jpg"
+  ]
+ },
+ "Push-Ups_-_Close_Triceps_Position": {
+  "name": "Push-Ups - Close Triceps Position",
+  "level": "intermediate",
+  "mechanic": "compound",
+  "force": "push",
+  "category": "strength",
+  "primaryMuscles": [
+   "triceps"
+  ],
+  "secondaryMuscles": [
+   "chest",
+   "shoulders"
+  ],
+  "instructions": [
+   "Lie on the floor face down and place your hands closer than shoulder width for a close hand position. Make sure that you are holding your torso up at arms' length.",
+   "Lower yourself until your chest almost touches the floor as you inhale.",
+   "Using your triceps and some of your pectoral muscles, press your upper body back up to the starting position and squeeze your chest. Breathe out as you perform this step.",
+   "After a second pause at the contracted position, repeat the movement for the prescribed amount of repetitions."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Push-Ups_-_Close_Triceps_Position/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Push-Ups_-_Close_Triceps_Position/1.jpg"
+  ]
+ },
+ "Push-Ups_With_Feet_Elevated": {
+  "name": "Push-Ups With Feet Elevated",
+  "level": "beginner",
+  "mechanic": "compound",
+  "force": "push",
+  "category": "strength",
+  "primaryMuscles": [
+   "chest"
+  ],
+  "secondaryMuscles": [
+   "shoulders",
+   "triceps"
+  ],
+  "instructions": [
+   "Lie on the floor face down and place your hands about 36 inches apart from each other holding your torso up at arms length.",
+   "Place your toes on top of a flat bench. This will allow your body to be elevated. Note: The higher the elevation of the flat bench, the higher the resistance of the exercise is.",
+   "Lower yourself until your chest almost touches the floor as you inhale.",
+   "Using your pectoral muscles, press your upper body back up to the starting position and squeeze your chest. Breathe out as you perform this step.",
+   "After a second pause at the contracted position, repeat the movement for the prescribed amount of repetitions."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Push-Ups_With_Feet_Elevated/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Push-Ups_With_Feet_Elevated/1.jpg"
+  ]
+ },
+ "Push_Up_to_Side_Plank": {
+  "name": "Push Up to Side Plank",
+  "level": "beginner",
+  "mechanic": "compound",
+  "force": "push",
+  "category": "strength",
+  "primaryMuscles": [
+   "chest"
+  ],
+  "secondaryMuscles": [
+   "abdominals",
+   "shoulders",
+   "triceps"
+  ],
+  "instructions": [
+   "Get into pushup position on the toes with your hands just outside of shoulder width.",
+   "Perform a pushup by allowing the elbows to flex. As you descend, keep your body straight.",
+   "Do one pushup and as you come up, shift your weight on the left side of the body, twist to the side while bringing the right arm up towards the ceiling in a side plank.",
+   "Lower the arm back to the floor for another pushup and then twist to the other side.",
+   "Repeat the series, alternating each side, for 10 or more reps."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Push_Up_to_Side_Plank/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Push_Up_to_Side_Plank/1.jpg"
+  ]
+ },
+ "Pushups": {
+  "name": "Pushups",
+  "level": "beginner",
+  "mechanic": "compound",
+  "force": "push",
+  "category": "strength",
+  "primaryMuscles": [
+   "chest"
+  ],
+  "secondaryMuscles": [
+   "shoulders",
+   "triceps"
+  ],
+  "instructions": [
+   "Lie on the floor face down and place your hands about 36 inches apart while holding your torso up at arms length.",
+   "Next, lower yourself downward until your chest almost touches the floor as you inhale.",
+   "Now breathe out and press your upper body back up to the starting position while squeezing your chest.",
+   "After a brief pause at the top contracted position, you can begin to lower yourself downward again for as many repetitions as needed."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Pushups/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Pushups/1.jpg"
+  ]
+ },
+ "Reverse_Crunch": {
+  "name": "Reverse Crunch",
+  "level": "beginner",
+  "mechanic": "isolation",
+  "force": "pull",
+  "category": "strength",
+  "primaryMuscles": [
+   "abdominals"
+  ],
+  "secondaryMuscles": [],
+  "instructions": [
+   "Lie down on the floor with your legs fully extended and arms to the side of your torso with the palms on the floor. Your arms should be stationary for the entire exercise.",
+   "Move your legs up so that your thighs are perpendicular to the floor and feet are together and parallel to the floor. This is the starting position.",
+   "While inhaling, move your legs towards the torso as you roll your pelvis backwards and you raise your hips off the floor. At the end of this movement your knees will be touching your chest.",
+   "Hold the contraction for a second and move your legs back to the starting position while exhaling.",
+   "Repeat for the recommended amount of repetitions."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Reverse_Crunch/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Reverse_Crunch/1.jpg"
+  ]
+ },
+ "Rocket_Jump": {
+  "name": "Rocket Jump",
+  "level": "beginner",
+  "mechanic": "compound",
+  "force": "push",
+  "category": "plyometrics",
+  "primaryMuscles": [
+   "quadriceps"
+  ],
+  "secondaryMuscles": [
+   "calves",
+   "hamstrings"
+  ],
+  "instructions": [
+   "Begin in a relaxed stance with your feet shoulder width apart and hold your arms close to the body.",
+   "To initiate the move, squat down halfway and explode back up as high as possible.",
+   "Fully extend your entire body, reaching overhead as far as possible. As you land, absorb your impact through the legs."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Rocket_Jump/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Rocket_Jump/1.jpg"
+  ]
+ },
+ "Russian_Twist": {
+  "name": "Russian Twist",
+  "level": "intermediate",
+  "mechanic": "compound",
+  "force": "pull",
+  "category": "strength",
+  "primaryMuscles": [
+   "abdominals"
+  ],
+  "secondaryMuscles": [
+   "lower back"
+  ],
+  "instructions": [
+   "Lie down on the floor placing your feet either under something that will not move or by having a partner hold them. Your legs should be bent at the knees.",
+   "Elevate your upper body so that it creates an imaginary V-shape with your thighs. Your arms should be fully extended in front of you perpendicular to your torso and with the hands clasped. This is the starting position.",
+   "Twist your torso to the right side until your arms are parallel with the floor while breathing out.",
+   "Hold the contraction for a second and move back to the starting position while breathing out. Now move to the opposite side performing the same techniques you applied to the right side.",
+   "Repeat for the recommended amount of repetitions."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Russian_Twist/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Russian_Twist/1.jpg"
+  ]
+ },
+ "Scapular_Pull-Up": {
+  "name": "Scapular Pull-Up",
+  "level": "beginner",
+  "mechanic": "isolation",
+  "force": "pull",
+  "category": "strength",
+  "primaryMuscles": [
+   "traps"
+  ],
+  "secondaryMuscles": [
+   "lats",
+   "middle back"
+  ],
+  "instructions": [
+   "Take a pronated grip on a pull-up bar.",
+   "From a hanging position, raise yourself a few inches without using your arms. Do this by depressing your shoulder girdle in a reverse shrugging motion.",
+   "Pause at the completion of the movement, and then slowly return to the starting position before performing more repetitions."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Scapular_Pull-Up/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Scapular_Pull-Up/1.jpg"
+  ]
+ },
+ "Scissor_Kick": {
+  "name": "Scissor Kick",
+  "level": "beginner",
+  "mechanic": "isolation",
+  "force": "pull",
+  "category": "stretching",
+  "primaryMuscles": [
+   "abdominals"
+  ],
+  "secondaryMuscles": [],
+  "instructions": [
+   "To begin, lie down with your back pressed against the floor or on an exercise mat (optional). Your arms should be fully extended to the sides with your palms facing down. Note: The arms should be stationary the entire time.",
+   "With a slight bend at the knees, lift your legs up so that your heels are about 6 inches off the ground. This is the starting position.",
+   "Now lift your left leg up to about a 45 degree angle while your right leg is lowered until the heel is about 2-3 inches from the ground.",
+   "Switch movements by raising your right leg up and lowering your left leg. Remember to breathe while performing this exercise.",
+   "Repeat for the recommended amount of repetitions."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Scissor_Kick/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Scissor_Kick/1.jpg"
+  ]
+ },
+ "Seated_Biceps": {
+  "name": "Seated Biceps",
+  "level": "expert",
+  "mechanic": "isolation",
+  "force": "static",
+  "category": "stretching",
+  "primaryMuscles": [
+   "biceps"
+  ],
+  "secondaryMuscles": [
+   "chest",
+   "shoulders"
+  ],
+  "instructions": [
+   "Sit on the floor with your knees bent and your partner standing behind you. Extend your arms straight behind you with your palms facing each other. Your partner will hold your wrists for you. This will be the starting position.",
+   "Attempt to flex your elbows, while your partner prevents any actual movement.",
+   "After 10-20 seconds, relax your arms while your partner gently pulls your wrists up to stretch your biceps. Be sure to let your partner know when the stretch is appropriate to prevent injury or overstretching."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Seated_Biceps/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Seated_Biceps/1.jpg"
+  ]
+ },
+ "Seated_Front_Deltoid": {
+  "name": "Seated Front Deltoid",
+  "level": "expert",
+  "mechanic": null,
+  "force": "static",
+  "category": "stretching",
+  "primaryMuscles": [
+   "shoulders"
+  ],
+  "secondaryMuscles": [
+   "chest"
+  ],
+  "instructions": [
+   "Sit upright on the floor with your legs bent, your partner standing behind you. Stick your arms straight out to your sides, with your palms facing the ground. Attempt to move them as far behind you as possible, as your assistant holds your wrists. This will be your starting position.",
+   "Keeping your elbows straight, attempt to move your arms to the front, with your partner gently restraining you to prevent any actual movement for 10-20 seconds.",
+   "Now, relax your muscles and allow your partner to gently increase the stretch on the shoulders and chest. Hold for 10 to 20 seconds."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Seated_Front_Deltoid/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Seated_Front_Deltoid/1.jpg"
+  ]
+ },
+ "Side_Bridge": {
+  "name": "Side Bridge",
+  "level": "beginner",
+  "mechanic": null,
+  "force": "static",
+  "category": "strength",
+  "primaryMuscles": [
+   "abdominals"
+  ],
+  "secondaryMuscles": [
+   "shoulders"
+  ],
+  "instructions": [],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Side_Bridge/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Side_Bridge/1.jpg"
+  ]
+ },
+ "Single_Leg_Glute_Bridge": {
+  "name": "Single Leg Glute Bridge",
+  "level": "beginner",
+  "mechanic": "isolation",
+  "force": "push",
+  "category": "strength",
+  "primaryMuscles": [
+   "glutes"
+  ],
+  "secondaryMuscles": [
+   "hamstrings"
+  ],
+  "instructions": [
+   "Lay on the floor with your feet flat and knees bent.",
+   "Raise one leg off of the ground, pulling the knee to your chest. This will be your starting position.",
+   "Execute the movement by driving through the heel, extending your hip upward and raising your glutes off of the ground.",
+   "Extend as far as possible, pause and then return to the starting position."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Single_Leg_Glute_Bridge/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Single_Leg_Glute_Bridge/1.jpg"
+  ]
+ },
+ "Sit-Up": {
+  "name": "Sit-Up",
+  "level": "beginner",
+  "mechanic": "isolation",
+  "force": "pull",
+  "category": "strength",
+  "primaryMuscles": [
+   "abdominals"
+  ],
+  "secondaryMuscles": [],
+  "instructions": [
+   "Lie down on the floor placing your feet either under something that will not move or by having a partner hold them. Your legs should be bent at the knees.",
+   "Place your hands behind your head and lock them together by clasping your fingers. This is the starting position.",
+   "Elevate your upper body so that it creates an imaginary V-shape with your thighs. Breathe out when performing this part of the exercise.",
+   "Once you feel the contraction for a second, lower your upper body back down to the starting position while inhaling.",
+   "Repeat for the recommended amount of repetitions."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Sit-Up/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Sit-Up/1.jpg"
+  ]
+ },
+ "Standing_Hip_Circles": {
+  "name": "Standing Hip Circles",
+  "level": "beginner",
+  "mechanic": "isolation",
+  "force": "pull",
+  "category": "stretching",
+  "primaryMuscles": [
+   "abductors"
+  ],
+  "secondaryMuscles": [
+   "adductors"
+  ],
+  "instructions": [
+   "Begin standing on one leg, holding to a vertical support.",
+   "Raise the unsupported knee to 90 degrees. This will be your starting position.",
+   "Open the hip as far as possible, attempting to make a big circle with your knee.",
+   "Perform this movement slowly for a number of repetitions, and repeat on the other side."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Standing_Hip_Circles/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Standing_Hip_Circles/1.jpg"
+  ]
+ },
+ "Star_Jump": {
+  "name": "Star Jump",
+  "level": "beginner",
+  "mechanic": "compound",
+  "force": "push",
+  "category": "plyometrics",
+  "primaryMuscles": [
+   "quadriceps"
+  ],
+  "secondaryMuscles": [
+   "calves",
+   "glutes",
+   "hamstrings",
+   "shoulders"
+  ],
+  "instructions": [
+   "Begin in a relaxed stance with your feet shoulder width apart and hold your arms close to the body.",
+   "To initiate the move, squat down halfway and explode back up as high as possible. Fully extend your entire body, spreading your legs and arms away from the body.",
+   "As you land, bring your limbs back in and absorb your impact through the legs."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Star_Jump/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Star_Jump/1.jpg"
+  ]
+ },
+ "Step-up_with_Knee_Raise": {
+  "name": "Step-up with Knee Raise",
+  "level": "beginner",
+  "mechanic": "compound",
+  "force": "push",
+  "category": "strength",
+  "primaryMuscles": [
+   "glutes"
+  ],
+  "secondaryMuscles": [
+   "hamstrings",
+   "quadriceps"
+  ],
+  "instructions": [
+   "Stand facing a box or bench of an appropriate height with your feet together. This will be your starting position.",
+   "Begin the movement by stepping up, putting your left foot on the top of the bench. Extend through the hip and knee of your front leg to stand up on the box. As you stand on the box with your left leg, flex your right knee and hip, bringing your knee as high as you can.",
+   "Reverse this motion to step down off the box, and then repeat the sequence on the opposite leg."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Step-up_with_Knee_Raise/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Step-up_with_Knee_Raise/1.jpg"
+  ]
+ },
+ "Stomach_Vacuum": {
+  "name": "Stomach Vacuum",
+  "level": "beginner",
+  "mechanic": "isolation",
+  "force": "static",
+  "category": "stretching",
+  "primaryMuscles": [
+   "abdominals"
+  ],
+  "secondaryMuscles": [],
+  "instructions": [
+   "To begin, stand straight with your feet shoulder width apart from each other. Place your hands on your hips. This is the starting position.",
+   "Now slowly inhale as much air as possible and then start to exhale as much as possible while bringing your stomach in as much as possible and hold this position. Try to visualize your navel touching your backbone.",
+   "One isometric contraction is around 20 seconds. During the 20 second hold, try to breathe normally. Then inhale and bring your stomach back to the starting position.",
+   "Once you have practiced this exercise, try to perform this exercise for longer than 20 seconds. Tip: You can work your way up to 40-60 seconds.",
+   "Repeat for the recommended amount of sets."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Stomach_Vacuum/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Stomach_Vacuum/1.jpg"
+  ]
+ },
+ "Superman": {
+  "name": "Superman",
+  "level": "beginner",
+  "mechanic": "compound",
+  "force": "static",
+  "category": "stretching",
+  "primaryMuscles": [
+   "lower back"
+  ],
+  "secondaryMuscles": [
+   "glutes",
+   "hamstrings"
+  ],
+  "instructions": [
+   "To begin, lie straight and face down on the floor or exercise mat. Your arms should be fully extended in front of you. This is the starting position.",
+   "Simultaneously raise your arms, legs, and chest off of the floor and hold this contraction for 2 seconds. Tip: Squeeze your lower back to get the best results from this exercise. Remember to exhale during this movement. Note: When holding the contracted position, you should look like superman when he is flying.",
+   "Slowly begin to lower your arms, legs and chest back down to the starting position while inhaling.",
+   "Repeat for the recommended amount of repetitions prescribed in your program."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Superman/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Superman/1.jpg"
+  ]
+ },
+ "Toe_Touchers": {
+  "name": "Toe Touchers",
+  "level": "beginner",
+  "mechanic": "isolation",
+  "force": "pull",
+  "category": "stretching",
+  "primaryMuscles": [
+   "abdominals"
+  ],
+  "secondaryMuscles": [],
+  "instructions": [
+   "To begin, lie down on the floor or an exercise mat with your back pressed against the floor. Your arms should be lying across your sides with the palms facing down.",
+   "Your legs should be touching each other. Slowly elevate your legs up in the air until they are almost perpendicular to the floor with a slight bend at the knees. Your feet should be parallel to the floor.",
+   "Move your arms so that they are fully extended at a 45 degree angle from the floor. This is the starting position.",
+   "While keeping your lower back pressed against the floor, slowly lift your torso and use your hands to try and touch your toes. Remember to exhale while perform this part of the exercise.",
+   "Slowly begin to lower your torso and arms back down to the starting position while inhaling. Remember to keep your arms straight out pointing towards your toes.",
+   "Repeat for the recommended amount of repetitions."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Toe_Touchers/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Toe_Touchers/1.jpg"
+  ]
+ },
+ "Wind_Sprints": {
+  "name": "Wind Sprints",
+  "level": "beginner",
+  "mechanic": "compound",
+  "force": "pull",
+  "category": "strength",
+  "primaryMuscles": [
+   "abdominals"
+  ],
+  "secondaryMuscles": [],
+  "instructions": [
+   "Hang from a pull-up bar using a pronated grip. Your arms and legs should be extended. This will be your starting position.",
+   "Begin by quickly raising one knee as high as you can. Do not swing your body or your legs. 3",
+   "Immediately reverse the motion, returning that leg to the starting position. Simultaneously raise the opposite knee as high as possible.",
+   "Continue alternating between legs until the set is complete."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Wind_Sprints/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Wind_Sprints/1.jpg"
+  ]
+ },
+ "Wrist_Circles": {
+  "name": "Wrist Circles",
+  "level": "beginner",
+  "mechanic": "isolation",
+  "force": "pull",
+  "category": "stretching",
+  "primaryMuscles": [
+   "forearms"
+  ],
+  "secondaryMuscles": [],
+  "instructions": [
+   "Start by standing straight with your feet being shoulder width apart from each other. Elevate your arms to the side of you until they are fully extended and parallel to the floor at a height that is evenly aligned with your shoulders. Tip: Your torso and arms should form the letter \"T: Your palms should be facing down. This is the starting position.",
+   "Keeping your entire body stationary except for the wrists, begin to rotate both wrists forward in a circular motion. Tip: Pretend that you are trying to draw circles by using your hands as the brush. Breathe normally as you perform this exercise.",
+   "Repeat for the recommended amount of repetitions."
+  ],
+  "images": [
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Wrist_Circles/0.jpg",
+   "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Wrist_Circles/1.jpg"
+  ]
+ }
+}

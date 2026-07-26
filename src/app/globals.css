@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@theme {
+  /* IRON DISCIPLINE — field manual palette */
+  --color-night: #10140f; /* page background — gunmetal with olive cast */
+  --color-pit: #161c14; /* sunken panels */
+  --color-trench: #1f271d; /* raised surfaces / hover */
+  --color-line: #2e372b; /* borders */
+  --color-drab: #99a184; /* olive-drab labels */
+  --color-bone: #eae7da; /* body text — manual paper */
+  --color-ember: #f97316; /* safety orange — primary */
+  --color-go: #22c55e; /* mission complete */
+  --color-blood: #ef4444; /* max effort / warnings */
+
+  --font-stencil: var(--font-saira-stencil);
+  --font-cond: var(--font-barlow-cond);
+  --font-body: var(--font-barlow);
+}
+
+body {
+  background-color: var(--color-night);
+  color: var(--color-bone);
+  font-family: var(--font-body);
+  /* faint tactical grid, like field-manual graph paper */
+  background-image:
+    linear-gradient(to right, rgb(46 55 43 / 0.25) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(46 55 43 / 0.25) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+::selection {
+  background: var(--color-ember);
+  color: var(--color-night);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-ember);
+  outline-offset: 2px;
+}
+
+/* rep-log inputs: no spinners, field-manual look */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+/* drill-phrase marquee */
+.marquee-track {
+  animation: marquee 28s linear infinite;
+}
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* mission-complete stamp slam */
+.stamp-in {
+  animation: stamp 350ms cubic-bezier(0.2, 1.4, 0.4, 1) both;
+}
+@keyframes stamp {
+  from {
+    transform: rotate(-3deg) scale(1.6);
+    opacity: 0;
+  }
+  to {
+    transform: rotate(-3deg) scale(1);
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track {
+    animation: none;
+  }
+  .stamp-in {
+    animation: none;
+    transform: rotate(-3deg);
+  }
+  * {
+    transition-duration: 0.01ms !important;
+  }
+}
