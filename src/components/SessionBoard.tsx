@@ -13,6 +13,8 @@ import {
   type Store,
 } from "@/lib/store";
 import { WAVE_CLASS } from "@/lib/wave-ui";
+import ExerciseBlueprint2D from "@/components/ExerciseBlueprint2D";
+import { CALISTHENICS_EXERCISES, type CalisthenicsExercise } from "@/data/calisthenics-data";
 
 type Props = {
   day: Day;
@@ -31,7 +33,49 @@ export default function SessionBoard({ day, exercises }: Props) {
   const [store, setStore] = useState<Store | null>(null);
   const [open, setOpen] = useState<string | null>(null);
   const [timer, setTimer] = useState<Timer | null>(null);
+  const [formatMode, setFormatMode] = useState<Record<string, "blueprint" | "photo">>({});
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
+
+  const getCalisthenicsMatch = (exId: string, exRec: ExerciseRecord): CalisthenicsExercise => {
+    const cleanId = exId.toLowerCase().replace(/_/g, "-");
+    const existing = CALISTHENICS_EXERCISES.find(
+      (c) => c.id.toLowerCase().includes(cleanId) || c.name.toLowerCase() === exRec.name.toLowerCase()
+    );
+    if (existing) return existing;
+
+    const n = (exRec.name + " " + exId).toLowerCase();
+    let figureType: any = "plank";
+    if (n.includes("push") && !n.includes("handstand")) figureType = "pushup";
+    else if (n.includes("pull") || n.includes("chin") || n.includes("hang") || n.includes("row")) figureType = "pullup";
+    else if (n.includes("dip")) figureType = "dip";
+    else if (n.includes("squat") || n.includes("lunge") || n.includes("calf")) figureType = "squat";
+    else if (n.includes("handstand") || n.includes("pike")) figureType = "handstand";
+
+    return {
+      id: exId,
+      name: exRec.name.toUpperCase(),
+      tier: (exRec.level === "expert" ? "pro" : exRec.level === "intermediate" ? "advanced" : "beginner") as any,
+      primaryMuscle: (exRec.primaryMuscles[0] ?? "chest") as any,
+      secondaryMuscles: (exRec.secondaryMuscles ?? []) as any,
+      equipment: "FLOOR",
+      prescription: "STANDARD SETS",
+      tempo: "3-0-1-0",
+      tacticalCue: "MAINTAIN FORM INTEGRITY · NO GRAVITY REPS",
+      instructions: exRec.instructions,
+      mistakes: ["Breaking core line", "Incomplete range of motion"],
+      blueprint: {
+        figureType,
+        startAngle: "180° Full Arm Extension",
+        endAngle: "Peak Biomechanical Angle",
+        motionVector: "Bodyweight Drive",
+        focalJoints: exRec.primaryMuscles.slice(0, 3),
+        tacticalCues: [
+          { label: "Full range of motion", x: 50, y: 35 },
+          { label: "Core tension locked", x: 45, y: 55 },
+        ],
+      },
+    };
+  };
 
   useEffect(() => {
     setStore(loadStore());
@@ -304,18 +348,62 @@ export default function SessionBoard({ day, exercises }: Props) {
 
                   {isOpen && (
                     <div className="border-t-2 border-dashed border-line bg-pit px-4 py-5">
-                      <div className="grid gap-6 lg:grid-cols-[280px_1fr]">
-                        <div className="flex gap-2 lg:flex-col">
+                      {/* Format toggle banner */}
+                      <div className="mb-4 flex flex-wrap items-center justify-between gap-2 border-b border-line pb-2 font-cond text-xs font-bold">
+                        <span className="tracking-[0.2em] text-drab">
+                          DRILL VISUALIZATION MODE:
+                        </span>
+                        <div className="flex gap-2">
+                          <button
+                            type="button"
+                            onClick={() =>
+                              setFormatMode((prev) => ({ ...prev, [id]: "blueprint" }))
+                            }
+                            className={`cursor-pointer border px-2.5 py-1 tracking-wider transition-colors ${
+                              (formatMode[id] ?? "blueprint") === "blueprint"
+                                ? "border-ember bg-ember text-night"
+                                : "border-line text-drab hover:border-ember hover:text-bone"
+                            }`}
+                          >
+                            📐 2D BLUEPRINT SCHEMATIC
+                          </button>
+                          <button
+                            type="button"
+                            onClick={() =>
+                              setFormatMode((prev) => ({ ...prev, [id]: "photo" }))
+                            }
+                            className={`cursor-pointer border px-2.5 py-1 tracking-wider transition-colors ${
+                              formatMode[id] === "photo"
+                                ? "border-ember bg-ember text-night"
+                                : "border-line text-drab hover:border-ember hover:text-bone"
+                            }`}
+                          >
+                            📷 PHOTO ARCHIVE
+                          </button>
+                        </div>
+                      </div>
+
+                      {(formatMode[id] ?? "blueprint") === "blueprint" ? (
+                        <div className="mb-4">
+                          <ExerciseBlueprint2D
+                            exercise={getCalisthenicsMatch(item.ex, ex)}
+                          />
+                        </div>
+                      ) : (
+                        <div className="mb-4 flex gap-2 overflow-x-auto">
                           {ex.images.map((src, i) => (
                             <img
                               key={src}
                               src={src}
                               alt={`${ex.name} — ${i === 0 ? "start" : "end"} position`}
                               loading="lazy"
-                              className="w-1/2 border-2 border-line bg-white lg:w-full"
+                              className="max-h-64 border-2 border-line bg-white"
                             />
                           ))}
                         </div>
+                      )}
+
+                      <div className="grid gap-6">
                         <div>
                           <div className="flex flex-wrap gap-2 font-cond text-xs font-bold tracking-[0.15em] uppercase">
                             <span className={`border px-2 py-1 ${LEVEL_COLOR[ex.level] ?? "border-drab text-drab"}`}>

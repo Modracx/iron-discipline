@@ -3,6 +3,7 @@ import { PROGRAM } from "@/data/program";
 import DayStatus from "@/components/DayStatus";
 import Marquee from "@/components/Marquee";
 import ServiceRecord from "@/components/ServiceRecord";
+import CalisthenicsTacticalHub from "@/components/CalisthenicsTacticalHub";
 
 export default function Home() {
   return (
@@ -24,6 +25,28 @@ export default function Home() {
           into every training card, and every exercise explained step by step.
         </p>
 
+        {/* Tactical Quick Navigation */}
+        <div className="mt-6 flex flex-wrap gap-3 font-cond text-sm font-bold tracking-widest">
+          <a
+            href="#roster"
+            className="border-2 border-ember bg-ember px-4 py-2 text-night transition-colors hover:bg-ember/90 cursor-pointer"
+          >
+            ► 7-DAY DUTY ROSTER
+          </a>
+          <a
+            href="#scanner"
+            className="border-2 border-line bg-pit px-4 py-2 text-bone transition-colors hover:border-ember hover:text-ember cursor-pointer"
+          >
+            ► 3D BODY SCANNER &amp; MOTION LAB
+          </a>
+          <a
+            href="#service-record"
+            className="border-2 border-line bg-pit px-4 py-2 text-drab transition-colors hover:border-bone hover:text-bone cursor-pointer"
+          >
+            ► SERVICE RECORD &amp; PRs
+          </a>
+        </div>
+
         {/* mission briefing — form block */}
         <div className="mt-10 max-w-2xl border-2 border-line bg-pit">
           <div className="border-b-2 border-line bg-trench px-4 py-2 font-cond text-sm font-bold tracking-[0.25em] text-drab">
@@ -33,7 +56,7 @@ export default function Home() {
             {[
               ["OBJECTIVE", "Build strength, engine and mental hardness in 7 days a week, repeatable."],
               ["PERSONNEL", "Anyone. Every exercise lists a scale-up and a scale-down."],
-              ["EQUIPMENT", "Floor. Wall. Pull-up bar (or a branch, beam, or playground)."],
+              ["EQUIPMENT", "Floor. Wall. Pull-up bar (or a branch, beam, or playground). Pure bodyweight only."],
               ["DURATION", "30–60 minutes per day. Rest is prescribed — take all of it, and no more."],
             ].map(([k, v]) => (
               <div key={k} className="flex gap-4 px-4 py-2.5">
@@ -47,17 +70,17 @@ export default function Home() {
 
       <Marquee />
 
-      {/* ── SERVICE RECORD ─────────────────────────────── */}
-      <section className="mx-auto max-w-6xl px-4 pt-12">
-        <ServiceRecord />
-      </section>
-
-      {/* ── DUTY ROSTER ────────────────────────────────── */}
-      <section className="mx-auto max-w-6xl px-4 pt-8 pb-12">
-        <div className="flex items-baseline justify-between">
-          <h2 className="font-stencil text-3xl text-bone sm:text-4xl">DUTY ROSTER</h2>
-          <p className="font-cond text-sm font-semibold tracking-[0.25em] text-drab">
-            WEEK OF: EVERY WEEK
+      {/* ── SECTION 01: DUTY ROSTER ────────────────────── */}
+      <section id="roster" className="mx-auto max-w-6xl px-4 pt-12 pb-14">
+        <div className="flex items-baseline justify-between border-b-4 border-ember pb-3">
+          <div>
+            <p className="font-cond text-sm font-bold tracking-[0.3em] text-ember">
+              PRIMARY DIRECTIVE · 7-DAY TRAINING SCHEDULE
+            </p>
+            <h2 className="font-stencil text-3xl text-bone sm:text-5xl">DUTY ROSTER</h2>
+          </div>
+          <p className="font-cond text-xs font-semibold tracking-[0.25em] text-drab text-right">
+            5 SESSIONS · 1 RESET · 1 STAND-DOWN
           </p>
         </div>
 
@@ -98,8 +121,55 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── THE WAVE — why rest is in the plan ─────────── */}
-      <section className="mx-auto max-w-6xl px-4 pb-16">
+      {/* ── SECTION 02: 3D ANATOMICAL SCANNER & MOTION LAB ── */}
+      <section id="scanner" className="mx-auto max-w-6xl px-4 pt-12 pb-16">
+        <div className="flex flex-wrap items-baseline justify-between gap-3 border-b-4 border-ember pb-3">
+          <div>
+            <p className="font-cond text-sm font-bold tracking-[0.35em] text-ember">
+              TACTICAL ANATOMY · 5 DIFFICULTY TIERS · ANIMATED MOTION GRAPHICS
+            </p>
+            <h2 className="font-stencil text-3xl text-bone sm:text-5xl">
+              3D BODY MODEL &amp; CALISTHENICS LAB
+            </h2>
+          </div>
+          <div className="font-cond text-xs font-semibold tracking-widest text-drab text-right">
+            <span>DARK CARBON ANATOMY</span>
+            <span className="mx-2">·</span>
+            <span>HOVER TO HIGHLIGHT</span>
+            <span className="mx-2">·</span>
+            <span className="text-ember font-bold">ANIMATED GRAPHICS</span>
+          </div>
+        </div>
+        <p className="mt-4 max-w-3xl font-cond text-base tracking-wide leading-relaxed text-bone/90">
+          Rotate and inspect the 3D anatomical model in dark carbon finish to target specific muscle groups.
+          Hover over any muscle to highlight it instantly in tactical green, or click to lock drills and mobility stretches.
+          Filter bodyweight-only protocols across 5 progression tiers:{" "}
+          <strong className="text-go">Beginner</strong>,{" "}
+          <strong className="text-bone">Advanced</strong>,{" "}
+          <strong className="text-ember">Pro</strong>, and classified combat tiers{" "}
+          <strong className="text-blood">Military</strong> &amp;{" "}
+          <strong className="text-[#ff2a5f]">Brutal</strong> (restricted · classified clearance required).
+          Every drill features animated vector motion graphics showing realistic athletic repetitions in real time.
+        </p>
+
+        <div className="mt-8">
+          <CalisthenicsTacticalHub />
+        </div>
+      </section>
+
+      {/* ── SECTION 03: SERVICE RECORD ─────────────────── */}
+      <section id="service-record" className="mx-auto max-w-6xl px-4 pt-8 pb-12">
+        <div className="border-b-4 border-ember pb-2 mb-6">
+          <p className="font-cond text-sm font-bold tracking-[0.3em] text-ember">
+            HISTORICAL LOG · STREAKS &amp; PERSONAL RECORDS
+          </p>
+          <h2 className="font-stencil text-3xl text-bone sm:text-4xl">SERVICE RECORD</h2>
+        </div>
+        <ServiceRecord />
+      </section>
+
+      {/* ── SECTION 04: THE WAVE ───────────────────────── */}
+      <section className="mx-auto max-w-6xl px-4 pb-20">
         <h2 className="font-stencil text-3xl text-bone sm:text-4xl">THE WAVE</h2>
         <p className="mt-2 max-w-2xl text-bone/80">
           The week is shaped like an assault: three days up, one down, two up,
