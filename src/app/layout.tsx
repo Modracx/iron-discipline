@@ -31,9 +31,18 @@ export default function RootLayout({
     <html lang="en" className={`${stencil.variable} ${cond.variable} ${barlow.variable}`}>
       <body className="min-h-screen antialiased">
         <div className="border-b-2 border-line bg-pit">
-          <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-1.5 font-cond text-xs font-semibold tracking-[0.2em] text-drab">
-            <span>CONTROLLED DOCUMENT · TC 07-1</span>
-            <span className="hidden sm:block">IRON DISCIPLINE · PT PROGRAM</span>
+          <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-2 font-cond text-xs font-semibold tracking-[0.2em] text-drab">
+            <a href="/" className="hover:text-ember transition-colors">
+              CONTROLLED DOCUMENT · TC 07-1
+            </a>
+            <div className="flex items-center gap-4">
+              <a href="/#scanner" className="text-bone hover:text-ember font-bold transition-colors">
+                [ 3D BODY SCANNER &amp; TIERS ]
+              </a>
+              <a href="/#roster" className="hidden sm:inline text-bone hover:text-ember font-bold transition-colors">
+                [ DUTY ROSTER ]
+              </a>
+            </div>
             <span>REV 2026.07</span>
           </div>
         </div>

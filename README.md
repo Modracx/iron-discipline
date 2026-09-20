@@ -16,12 +16,16 @@ No accounts. No server. No gym membership required — floor, wall, and a pull-u
 
 ## Features
 
+- **Interactive 3D anatomical body scanner** — 360° orbitable full-body model with raycast muscle selection and targeted calisthenics drill filtering
+- **5 difficulty progression tiers** — Beginner (Recruit), Advanced (Specialist), Pro (Veteran), Military (Combat Ready), and Brutal (Apex Gymnastics)
+- **Classified clearance lock** — Military & Brutal tiers are restricted combat protocols requiring authorization
+- **Strict bodyweight calisthenics only** — zero gym machines, barbells, or weights; floor, wall, and bar mastery only
+- **2D technical drawing format** — blueprint-style biomechanical schematics showing start/peak positions, joint angles, and motion vectors
+- **Dynamic & static stretches** — targeted pre-workout mobility and post-workout static recovery drills for all muscle groups
 - **7-day repeating program** — five training sessions, one active-recovery day, one full rest day
 - **Per-exercise check-offs and rep logging** — mark sets done, log reps for MAX-effort sets, and track personal records automatically
 - **4-week progressive wave** — BASELINE → BUILD → SURGE → DELOAD; rest multipliers and rep deltas applied automatically each week
 - **Service record** — weekly history preserved in `localStorage`; shows completed days, full-week streaks, and per-exercise PRs
-- **Exercise library** — 800+ exercises pulled from the [free-exercise-db](https://github.com/yuhonas/free-exercise-db) dataset, each with step-by-step instructions and images
-- **Scale-up / scale-down options** — every session brief includes progressions and regressions; optional expert movements are clearly marked
 - **Zero dependencies at runtime** — all data lives in `localStorage`; no backend, no auth, no tracking
 
 ---
