@@ -16,11 +16,12 @@ No accounts. No server. No gym membership required — floor, wall, and a pull-u
 
 ## Features
 
-- **Interactive 3D anatomical body scanner** — 360° orbitable full-body model with raycast muscle selection and targeted calisthenics drill filtering
+- **Interactive 3D anatomical body scanner** — 360° orbitable Z-Anatomy muscular model (411 muscle volumes, fasciae stripped) with PBR muscle-tissue shading, image-based lighting, contact shadows and bloom-highlighted muscle selection; BVH-accelerated hover picking
 - **5 difficulty progression tiers** — Beginner (Recruit), Advanced (Specialist), Pro (Veteran), Military (Combat Ready), and Brutal (Apex Gymnastics)
 - **Classified clearance lock** — Military & Brutal tiers are restricted combat protocols requiring authorization
 - **Strict bodyweight calisthenics only** — zero gym machines, barbells, or weights; floor, wall, and bar mastery only
-- **2D technical drawing format** — blueprint-style biomechanical schematics showing start/peak positions, joint angles, and motion vectors
+- **2D motion blueprints** — one articulated skeletal rig (IK-planted hands and feet) posed by keyframes for ~90 movements; joint angles and motion vectors on the drawing are derived live from the skeleton
+- **3D motion mode** — the same keyframed moves drive a Mixamo-rigged mannequin in three.js (bones are aimed along the 2D skeleton each frame), with equipment built from the move's prop list and the target muscle lit on the body; no motion-capture clips needed
 - **Dynamic & static stretches** — targeted pre-workout mobility and post-workout static recovery drills for all muscle groups
 - **7-day repeating program** — five training sessions, one active-recovery day, one full rest day
 - **Per-exercise check-offs and rep logging** — mark sets done, log reps for MAX-effort sets, and track personal records automatically
@@ -65,6 +66,7 @@ Every session prescription is automatically adjusted based on which week of the 
 | Language | TypeScript 5 |
 | Styling | [Tailwind CSS v4](https://tailwindcss.com/) |
 | Fonts | Saira Stencil One · Barlow Condensed · Barlow (via `next/font/google`) |
+| 3D | [three.js](https://threejs.org/) + [three-mesh-bvh](https://github.com/gkjohnson/three-mesh-bvh); model built with [glTF-Transform](https://gltf-transform.dev/) |
 | State | `localStorage` — no server, no database |
 | Exercise data | [free-exercise-db](https://github.com/yuhonas/free-exercise-db) (public domain) |
 
@@ -82,6 +84,11 @@ src/
 │       └── page.tsx        # Per-day training card with phases, sets and exercise detail
 ├── components/
 │   ├── SessionBoard.tsx    # Main interactive training card — check-offs, rep logging, PRs
+│   ├── InteractiveBody3D.tsx    # three.js anatomical scanner (materials, lighting, picking)
+│   ├── ExerciseBlueprint2D.tsx  # Motion blueprint panel: SVG renderer + 2D/3D toggle
+│   ├── MotionFigure3D.tsx       # three.js viewer driving the rigged mannequin
+│   ├── BlueprintThumb.tsx       # static start/peak stills for drill cards
+│   ├── CalisthenicsTacticalHub.tsx # Tier / muscle filters, drill catalog, routines
 │   ├── ServiceRecord.tsx   # Weekly history, streak stats, and personal records panel
 │   ├── DayStatus.tsx       # Compact completion badge shown in the duty roster
 │   └── Marquee.tsx         # Scrolling motivational phrases ticker
@@ -90,8 +97,20 @@ src/
 │   └── exercises.json      # 800+ exercise records (name, muscles, instructions, images)
 └── lib/
     ├── store.ts            # localStorage read/write, week rollover, PR tracking
+    ├── rig2d.ts            # 2D skeletal rig, IK, keyframed moves library, movement classifier
+    ├── rig3d.ts            # retargets the 2D skeleton onto Mixamo bones
     └── wave-ui.ts          # Wave label helpers for UI display
+scripts/
+└── build-lean-model.mjs    # public/models/muscular_lean.glb from the full Z-Anatomy GLB
+assets-src/
+└── muscular_male.glb       # full Z-Anatomy source model (12 MB, not deployed)
 ```
+
+### 3D model
+
+`public/models/muscular_lean.glb` is generated from `assets-src/muscular_male.glb` (Z-Anatomy muscular system, kept out of `public/` so it is not deployed) by `npm run build:model`: fasciae, bursae, tendon sheaths, origin/insertion marker patches and internal muscles are dropped, the remaining 411 muscle bodies are simplified and Draco-compressed (12 MB → 2.3 MB). Edit the hide-list in the script if you need other structures visible.
+
+`public/models/mannequin.glb` is the three.js `Xbot` Mixamo character (Draco-compressed, animation clips stripped); `MotionFigure3D` poses it procedurally, so any move added to `rig2d.ts` works in 3D immediately.
 
 ---
 

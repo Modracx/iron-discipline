@@ -133,7 +133,7 @@ export default function Home() {
             </h2>
           </div>
           <div className="font-cond text-xs font-semibold tracking-widest text-drab text-right">
-            <span>DARK CARBON ANATOMY</span>
+            <span>Z-ANATOMY MUSCULAR SYSTEM</span>
             <span className="mx-2">·</span>
             <span>HOVER TO HIGHLIGHT</span>
             <span className="mx-2">·</span>
@@ -141,7 +141,7 @@ export default function Home() {
           </div>
         </div>
         <p className="mt-4 max-w-3xl font-cond text-base tracking-wide leading-relaxed text-bone/90">
-          Rotate and inspect the 3D anatomical model in dark carbon finish to target specific muscle groups.
+          Rotate and inspect the 3D muscular anatomy model — fascia stripped, every muscle volume rendered — to target specific muscle groups.
           Hover over any muscle to highlight it instantly in tactical green, or click to lock drills and mobility stretches.
           Filter bodyweight-only protocols across 5 progression tiers:{" "}
           <strong className="text-go">Beginner</strong>,{" "}

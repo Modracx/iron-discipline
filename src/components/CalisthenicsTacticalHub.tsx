@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from "react";
 import InteractiveBody3D from "./InteractiveBody3D";
 import ExerciseBlueprint2D from "./ExerciseBlueprint2D";
+import BlueprintThumb from "./BlueprintThumb";
 import ClearanceTerminal, {
   checkIsClassifiedUnlocked,
   STORAGE_KEY_FLAG,
@@ -457,8 +458,15 @@ export default function CalisthenicsTacticalHub() {
                           : "border-line bg-night/80 hover:border-ember/70"
                       }`}
                     >
-                      <div className="flex flex-wrap items-start justify-between gap-2">
-                        <div>
+                      <div className="flex flex-wrap items-start justify-between gap-3">
+                        <BlueprintThumb
+                          id={ex.id}
+                          name={ex.name}
+                          figureType={ex.blueprint.figureType}
+                          muscle={ex.primaryMuscle}
+                          className="w-40 shrink-0"
+                        />
+                        <div className="min-w-0 flex-1">
                           <div className="flex items-center gap-2">
                             <span
                               className={`border px-2 py-0.5 font-cond text-[11px] font-bold tracking-wider uppercase ${
@@ -542,8 +550,15 @@ export default function CalisthenicsTacticalHub() {
                 const targetMuscle = MUSCLE_REGISTRY[st.primaryMuscle];
                 return (
                   <div key={st.id} className="border-2 border-line bg-night p-4">
-                    <div className="flex flex-wrap items-start justify-between gap-2">
-                      <div>
+                    <div className="flex flex-wrap items-start justify-between gap-3">
+                      <BlueprintThumb
+                        id={st.id}
+                        name={st.name}
+                        figureType={st.blueprintType}
+                        muscle={st.primaryMuscle}
+                        className="w-40 shrink-0"
+                      />
+                      <div className="min-w-0 flex-1">
                         <span className="border border-green-500/60 px-2 py-0.5 font-cond text-xs font-bold uppercase text-green-400">
                           {st.type} MOBILITY
                         </span>
