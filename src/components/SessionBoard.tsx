@@ -14,7 +14,29 @@ import {
 } from "@/lib/store";
 import { WAVE_CLASS } from "@/lib/wave-ui";
 import ExerciseBlueprint2D from "@/components/ExerciseBlueprint2D";
-import { CALISTHENICS_EXERCISES, type CalisthenicsExercise } from "@/data/calisthenics-data";
+import { CALISTHENICS_EXERCISES, type CalisthenicsExercise, type ExerciseBlueprint, type MuscleId, type Tier } from "@/data/calisthenics-data";
+
+// free-exercise-db muscle names → the 15 canonical muscle groups
+const MUSCLE_ALIAS: Record<string, MuscleId> = {
+  chest: "chest",
+  shoulders: "deltoids",
+  triceps: "triceps",
+  biceps: "biceps",
+  forearms: "forearms",
+  abdominals: "abs",
+  lats: "lats",
+  "middle back": "traps",
+  traps: "traps",
+  "lower back": "lower_back",
+  glutes: "glutes",
+  quadriceps: "quads",
+  adductors: "quads",
+  abductors: "glutes",
+  hamstrings: "hamstrings",
+  calves: "calves",
+  neck: "neck",
+};
+const toMuscleId = (m: string): MuscleId => MUSCLE_ALIAS[m.toLowerCase()] ?? "abs";
 
 type Props = {
   day: Day;
@@ -44,7 +66,7 @@ export default function SessionBoard({ day, exercises }: Props) {
     if (existing) return existing;
 
     const n = (exRec.name + " " + exId).toLowerCase();
-    let figureType: any = "plank";
+    let figureType: ExerciseBlueprint["figureType"] = "plank";
     if (n.includes("push") && !n.includes("handstand")) figureType = "pushup";
     else if (n.includes("pull") || n.includes("chin") || n.includes("hang") || n.includes("row")) figureType = "pullup";
     else if (n.includes("dip")) figureType = "dip";
@@ -54,9 +76,9 @@ export default function SessionBoard({ day, exercises }: Props) {
     return {
       id: exId,
       name: exRec.name.toUpperCase(),
-      tier: (exRec.level === "expert" ? "pro" : exRec.level === "intermediate" ? "advanced" : "beginner") as any,
-      primaryMuscle: (exRec.primaryMuscles[0] ?? "chest") as any,
-      secondaryMuscles: (exRec.secondaryMuscles ?? []) as any,
+      tier: (exRec.level === "expert" ? "pro" : exRec.level === "intermediate" ? "advanced" : "beginner") as Tier,
+      primaryMuscle: toMuscleId(exRec.primaryMuscles[0] ?? "chest"),
+      secondaryMuscles: (exRec.secondaryMuscles ?? []).map(toMuscleId),
       equipment: "FLOOR",
       prescription: "STANDARD SETS",
       tempo: "3-0-1-0",
